@@ -610,7 +610,7 @@ footer {
 }
 .footer-zalo {
   position: fixed;
-  right: 20px;
+  right: 16px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 9999;
@@ -618,10 +618,10 @@ footer {
 }
 
 .footer-zalo img {
-  width: 120px;
+  width: 90px;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.22);
   transition: transform 0.3s ease;
 }
 
@@ -630,10 +630,29 @@ footer {
 }
 
 .footer-zalo p {
-  font-size: 0.8rem;
-  margin-top: 0.4rem;
+  font-size: 0.7rem;
+  margin-top: 0.3rem;
   font-weight: 500;
   background: white;
-  padding: 4px 8px;
+  padding: 3px 6px;
   border-radius: 6px;
+}
+
+/* Make Zalo QR much smaller on mobile */
+@media screen and (max-width: 768px) {
+  .footer-zalo {
+    right: 10px;
+    top: auto;
+    bottom: 12px;
+    transform: none;
+  }
+
+  .footer-zalo img {
+    width: 55px;
+    border-radius: 8px;
+  }
+
+  .footer-zalo p {
+    display: none;
+  }
 }
