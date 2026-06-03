@@ -1,386 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" >
-    <link rel="stylesheet" href="mediaqueries.css" >
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jake Egelhoff IELTS Coaching</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
 </head>
+
 <body>
-    <nav id="desktop-nav">
-        <div class="logo">Jake Egelhoff</div>
-        <div>
-<ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-</ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Jake</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
-        </div>
-    </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/Untitled design(4).png" alt="Jake Profile Picture">
-        </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Jake Egelhoff</h1>
-            <p class="section__text__p2">Frontend Developer</p>
-            <div class="btn-container">
-                <button
-            class="btn btn-color-2"
-            onclick="window.open('assets/WebDev Resume.pdf')">
-            Download CV
-          </button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
-            </div>
-            <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/jake-e-229a5683/'">
-                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Jacques8787'"> 
-            </div>
-        </div>
-    </section>
-    <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-          <div class="section__pic-container">
-            <img
-              src="assets/IMG_3897.png"
-              alt="Profile picture"
-              class="about-pic"
-            />
-          </div> 
-          <div class="about-details-container">
-            <div class="about-containers">
-              <div class="details-container">
-                <img
-                  src="./assets/experience.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <h3>Experience</h3>
-                <p>3+ years <br />Frontend Development</p>
-              </div>
-              <div class="details-container">
-                <img
-                  src="./assets/education.png"
-                  alt="Education icon"
-                  class="icon"
-                />
-                <h3>Education</h3>
-                <p>B.A. Bachelors Degree<br />M.A. Masters Degree</p>
-              </div>
-            </div>
-            <div class="text-container">
-              <p>
-Hi, I’m Jake. I’m an entry-level web developer with a unique background in firefighting, emergency medical services, and operations management, which has given me strong problem-solving skills and a deep understanding of working in high-pressure, collaborative environments. After transitioning into web development, I’ve built a foundation in front-end technologies, including HTML, CSS, and JavaScript, with a focus on creating responsive, user-friendly websites.
-
-I specialize in developing Shopify stores and e-commerce websites designed to enhance the user experience and drive conversions. I’m always eager to learn new technologies and frameworks, especially in the ever-evolving e-commerce space.
-
-Outside of coding, I’m passionate about exploring Asia, where I enjoy combining my love of travel with my curiosity for learning and innovation. I’m excited to continue growing as a developer and contribute to projects that solve real-world problems and help businesses succeed online.            </div>
-          </div>
-        </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#experience'"
-        />
-      </section>
-    <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-<h1 class="title">Experience</h1>
-<div class="experience-details-container">
-    <div class="about-containers">
-        <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-                <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon" 
-                    class="icon"
-                    />
-                  <div>
-                    <h3>HTML</h3>
-                    <p>Experienced</p>
-                </div>
-                </article>
-                <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon" 
-                    class="icon"
-                    />
-                  <div>
-                    <h3>CSS</h3>
-                    <p>Experienced</p>
-                </div>
-                </article>
-                <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon" 
-                    class="icon"
-                    />
-                  <div>
-                    <h3>SASS</h3>
-                    <p>Intermediate</p>
-                </div>
-                </article>
-                <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon" 
-                    class="icon"
-                    />
-                  <div>
-                    <h3>JavaScript</h3>
-                    <p>Experienced</p>
-                </div>
-                </article>
-                <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon" 
-                    class="icon"
-                    />
-                  <div>
-                    <h3>TypeScript</h3>
-                    <p>Basic</p>
-                </div>
-                </article>
-                
-            </div>
+  <nav id="desktop-nav">
+    <div class="logo">
+      <img src="./assets/IELTS-JE-Logo.jpg" alt="IELTS With Jake Logo" class="nav-logo">
     </div>
-    <div class="details-container">
-        <h2 class="experience-sub-title">Frontend Development</h2>
-        <div class="article-container">
-             <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
-                />
-              <div>
-                <h3>Shopify</h3>
-                <p>Experienced</p>
-            </div>
-            </article>
-            <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
-                />
-              <div>
-                <h3>Wordpress</h3>
-                <p>Experienced</p>
-            </div>
-            </article>
-            <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
-                />
-              <div>
-                <h3>Node JS</h3>
-                <p>Intermediate</p>
-            </div>
-            </article>
-            <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
-                />
-              <div>
-                <h3>Express JS</h3>
-                <p>Intermediate</p>
-            </div>
-            </article>
-            <article>
-                <img 
-                src="./assets/checkmark.png" 
-                alt="Experience icon" 
-                class="icon"
-                />
-              <div>
-                <h3>Git</h3>
-                <p>Intermediate</p>
-            </div>
-            </article>
-        </div>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#bootcamp">Bootcamp</a></li>
+      <li><a href="#credentials">Credentials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Jake</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#bootcamp" onclick="toggleMenu()">Bootcamp</a></li>
+        <li><a href="#credentials" onclick="toggleMenu()">Credentials</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/JEPROFILE3-removebg-preview.png" alt="Jake Egelhoff IELTS Coach" />
+    </div>
+
+    <div class="section__text">
+      <p class="section__text__p1">IELTS Speaking & Writing Specialist</p>
+      <h1 class="title">Jake Egelhoff</h1>
+
+      <p class="section__text__p2">
+        IELTS Speaking & Writing Coaching for English Learners
+      </p>
+
+      <p class="hero-support-text">
+        Personalized feedback. Clear strategies. Real improvement.
+      </p>
+
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="location.href='./#bootcamp'">
+          View Bootcamp
+        </button>
+
+        <button class="btn btn-color-1" onclick="window.open('https://calendar.app.google/bkFj4XmsmtQqoLC67', '_blank')">
+          Book a Free Consultation
+        </button>
+      </div>
+
+ <div id="socials-container">
+  <a href="https://www.facebook.com/profile.php?id=61590422558216" target="_blank" class="facebook-link">
+    <img
+      src="./assets/Facebook_Logo_Black_Icon_Fb_Icon_Fb_Logo_PNG_Images___Facebook__Facebook_Icon__Black_PNG_Transparent_Background_-_Pngtree-removebg-preview.png"
+      alt="Facebook profile"
+      class="icon"
+    />
+  </a>
+
+  <a href="https://www.linkedin.com/in/jake-e-229a5683/" target="_blank" class="linkedin-link">
+    <img src="./assets/linkedin.png" alt="LinkedIn profile" class="icon" />
+  </a>
+
+  <a href="mailto:jake.ielts.coaching@gmail.com" class="email-link">
+    <img src="./assets/email.png" alt="Email Jake" class="icon" />
+  </a>
 </div>
     </div>
-    </div>
-    <img 
-    src="./assets/arrow.png" 
-    alt="Arrow icon" 
-    class="icon arrow" 
-    onclick="location.href='./#projects'"/>
-    </section>
-   <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-        <!-- First row of 3 projects -->
-        <div class="about-containers">
-            <!-- Project 1 -->
-            <div class="details-container color-container">
-               <div class="article-container">
-                <img src="assets/GMN.jpg" alt="Project 1" class="project-img"/>
-               </div> 
-               <h2 class="experience-sub-title project-title">Guess My Number</h2>
-               <div class="btn-container">
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Jacques8787/Guess-My-Number/'">
-                    Github
-                </button>
-                <button class="btn btn-color-2 project-btn" 
-                onclick="location.href='https://jacques8787.github.io/Guess-My-Number/'">
-                    Live Demo
-                </button>
-               </div>
-            </div>
-            <!-- Project 2 -->
-            <div class="details-container color-container">
-                <div class="article-container">
-                 <img src="assets/Dice game.jpg" alt="Project 2" class="project-img"/>
-                </div> 
-                <h2 class="experience-sub-title project-title">Dice Game</h2>
-                <div class="btn-container">
-                 <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Jacques8787/Dice-Game'">
-                     Github
-                 </button>
-                 <button class="btn btn-color-2 project-btn" 
-                 onclick="location.href='https://jacques8787.github.io/Dice-Game/'">
-                     Live Demo
-                 </button>
-                </div>
-             </div>
-             <!-- Project 3 -->
-             <div class="details-container color-container">
-                <div class="article-container">
-                 <img src="assets/Mapity Big.jpg" alt="Project 3" class="project-img"/>
-                </div> 
-                <h2 class="experience-sub-title project-title">Mapity App</h2>
-                <div class="btn-container">
-                 <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Jacques8787/Mapity-App'">
-                     Github
-                 </button>
-                 <button class="btn btn-color-2 project-btn" 
-                 onclick="location.href='https://jacques8787.github.io/Mapity-App/'">
-                     Live Demo
-                 </button>
-                </div>
-             </div>
-        </div>
-        <!-- New row of 3 additional projects -->
-        <div class="about-containers">
-            <!-- Project 4 -->
-            <div class="details-container color-container">
-               <div class="article-container">
-                <img src="assets/IMG_8207 2.jpg" alt="Project 4" class="project-img"/>
-               </div> 
-               <h2 class="experience-sub-title project-title">React Crypto App</h2>
-               <div class="btn-container">
-                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Jacques8787/crypto-app-react'">
-                    Github
-                </button>
-                <button class="btn btn-color-2 project-btn" 
-                onclick="location.href='https://jacques8787.github.io/crypto-app-react/'">
-                    Live Demo
-                </button>
-               </div>
-            </div>
-            <!-- Project 5 -->
-            <div class="details-container color-container">
-                <div class="article-container">
-                 <img src="assets/Untitled design(7).png" alt="Project 5" class="project-img"/>
-                </div> 
-                <h2 class="experience-sub-title project-title">Shopify Store</h2>
-                <div class="btn-container">
-                 <button class="btn btn-color-2 project-btn" 
-                 onclick="location.href='https://www.georgiec.com/'">
-                     Live Demo
-                 </button>
-                </div>
-             </div>
-             <!-- Project 6 -->
-             <div class="details-container color-container">
-                <div class="article-container">
-                 <img src="assets/Untitled design(5).png" alt="Project 6" class="project-img"/>
-                </div> 
-                <h2 class="experience-sub-title project-title">My Blog</h2>
-                <div class="btn-container">
-                 <button class="btn btn-color-2 project-btn" 
-                 onclick="location.href='https://theanalognomad.net/'">
-                     Live Demo
-                 </button>
-                </div>
-             </div>
-        </div>
-    </div>
-    <img 
-    src="./assets/arrow.png" 
-    alt="Arrow icon" 
-    class="icon arrow" 
-    onclick="location.href='./#contact'"/>
-</section>
+  </section>
 
-    </section>
-    <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-            <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon"/>
-            <p><a href="mailto:egelhja@gmail.com">Egelhja@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-            <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
-            <p><a href="https://www.linkedin.com/in/jake-e-229a5683/">LinkedIn</a></p>
-        </div>
-        </div>
-    </section>
-    <footer>
-        <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Jake</h1>
+
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/WorkshopIELTS.jpg" alt="Jake teaching IELTS" class="about-pic" />
+      </div>
+
+      <div class="about-details-container">
+        <div class="about-containers">
+
+          <!-- <div class="details-container">
+            <div class="mini-image-container">
+              <img src="./assets/TEACHINGSHOT.png" alt="Experience icon" class="mini-card-img" />
             </div>
-        </nav>
-        <p>Copyright &#169; 2024 Jake Egelhoff. All Rights Reserved.</p>
-    </footer>
-     <script src="script.js"></script>
+            <h3>Teaching Experience</h3>
+            <p>8+ Years Teaching IELTS<br />Academic Writing</p>
+          </div>
+
+          <div class="details-container">
+            <div class="mini-image-container">
+              <img src="./assets/Screenshot 2026-06-03 at 2.00.12 PM.png" alt="Education icon" class="mini-card-img" />
+            </div>
+            <h3>Education</h3>
+            <p>M.A. Composition & Rhetoric<br />University of Montana</p>
+          </div> -->
+<div class="about-highlights">
+
+  <div class="highlight-item">
+    <h3>🎓 Academic Background</h3>
+    <p>
+      M.A. in Composition & Rhetoric, University of Montana.
+    </p>
+  </div>
+
+  <div class="highlight-item">
+    <h3>🏆 IELTS Expertise</h3>
+    <p>
+      British Council IELTS Teacher Training and years of experience helping learners improve Speaking and Writing scores.
+    </p>
+  </div>
+
+  <div class="highlight-item">
+    <h3>👨‍🏫 Practical Teaching Experience</h3>
+    <p>
+      More than 8 years teaching English, academic writing, and IELTS preparation in classrooms and online.
+    </p>
+  </div>
+
+</div>
+        </div>
+
+        <div class="text-container">
+          <p>
+            Hi, I’m Jake. I’m an American English teacher and IELTS coach based in Vietnam.
+            I specialize in helping Vietnamese learners improve their IELTS Speaking and Writing
+            through clear structure, personalized feedback, and practical exam-focused strategies.
+            My background in composition, rhetoric, and classroom teaching allows me to help students
+            build stronger answers, clearer arguments and more confidence.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#bootcamp'" />
+  </section>
+
+  <section id="bootcamp">
+    <p class="section__text__p1">IELTS Skills Intensive</p>
+    <h1 class="title">6-Week IELTS Bootcamp</h1>
+
+    <p class="credentials-intro">
+      A focused small-group IELTS program designed around the skills students usually need the most support with: Writing and Speaking.
+    </p>
+
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Program Structure</h2>
+
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h3>6 Weeks</h3>
+                <p>Focused IELTS preparation</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h3>12 Live Classes</h3>
+                <p>2 classes per week, 1.5 hours each</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h3>Small Groups</h3>
+                <p>Personalized feedback and guided practice</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Course Breakdown</h2>
+
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h3>Weeks 1–2: Writing</h3>
+                <p>Task 1, Task 2, structure, coherence, and feedback</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h3>Weeks 3–4: Speaking</h3>
+                <p>Parts 1–3, fluency, confidence, and mock practice</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+              <div>
+                <h3>Weeks 5–6: Reading & Listening</h3>
+                <p>Question types, timing strategies, and common IELTS traps</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bootcamp-pricing">
+      <h3>6-Week IELTS Bootcamp</h3>
+      <h2>4,990,000 VND</h2>
+      <p>
+        Launch Special: 3,990,000 VND for the first cohort.
+      </p>
+      <p>
+        12 live classes • Small groups • Speaking practice • Writing feedback • Exam strategies
+      </p>
+
+      <button
+        class="btn btn-color-1"
+        onclick="window.open('https://calendar.app.google/bkFj4XmsmtQqoLC67', '_blank')">
+        Book a Free IELTS Assessment
+      </button>
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#credentials'" />
+  </section>
+
+  <section id="credentials">
+    <p class="section__text__p1">Professional Background</p>
+    <h1 class="title">Why Learn With Me</h1>
+
+    <p class="credentials-intro">
+      I combine formal academic training, U.S. teacher preparation, and years of classroom experience to help Vietnamese learners achieve their IELTS goals through clear instruction, personalized feedback, and practical test strategies.
+    </p>
+
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/Screenshot 2026-06-03 at 2.00.12 PM.png"
+              alt="Master's Degree"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            M.A. Composition & Rhetoric
+          </h2>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/TESOL.png"
+              alt="Teaching experience"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            U.S. Teacher Certification Candidate
+          </h2>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/british-council.jpg"
+              alt="British Council Training"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            British Council IELTS Training
+          </h2>
+        </div>
+
+      </div>
+    </div>
+
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Start Learning</p>
+    <h1 class="title">Contact Jake</h1>
+
+   <div id="contact-socials">
+
+  <a href="https://www.facebook.com/profile.php?id=61590422558216" target="_blank">
+    <img
+      src="./assets/Facebook_Logo_Black_Icon_Fb_Icon_Fb_Logo_PNG_Images___Facebook__Facebook_Icon__Black_PNG_Transparent_Background_-_Pngtree-removebg-preview.png"
+      alt="Facebook"
+      class="contact-social-icon"
+    />
+  </a>
+
+  <a href="https://www.linkedin.com/in/jake-e-229a5683/" target="_blank">
+    <img
+      src="./assets/linkedin.png"
+      alt="LinkedIn"
+      class="contact-social-icon"
+    />
+  </a>
+
+  <a href="mailto:jake.ielts.coaching@gmail.com">
+    <img
+      src="./assets/email.png"
+      alt="Email"
+      class="contact-social-icon"
+    />
+  </a>
+
+</div>
+    </div>
+  </section>
+
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#bootcamp">Bootcamp</a></li>
+        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <p>Copyright &#169; 2026 Jake Egelhoff (jake.ielts.coaching@gmail.com)</p>
+
+  <div class="footer-zalo">
+    <img src="./assets/IMG_0728.JPG" alt="Zalo QR Code">
+    <p>Scan for Zalo</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
-
-
- 
-
-
